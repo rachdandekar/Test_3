@@ -1,0 +1,148 @@
+.header{
+    height:50px;
+    background-color: black;
+}
+
+.header-nav
+{
+    float:right;
+    display:inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+.header-nav a{
+     display:inline-block;
+     text-align: center;
+     padding: 5px 10px;
+     text-decoration: none;
+    color: white;
+    border-right: 2px solid white;
+}
+.header-nav a:last-child{
+    border-right:none;
+}
+
+.urban-builders
+{
+    height: 300px;
+    width:auto;
+   /* background-image: url('http://lorempixel.com/1500/1000');*/
+    position:relative;
+}
+.heading
+{
+    position:absolute;
+    right:10.5%;
+    top:20%;
+    color: white;
+}
+span{
+    display: block;
+    font-size: 15px;
+    text-align: right;
+}
+.main-nav{
+    height: 50px;
+    background-color: black;
+}
+
+.house-types li{
+    display:inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.house-types a{
+   display:inline-block;
+     text-align: center;
+     padding: 5px 10px;
+     text-decoration: none;
+    color: white;
+    border-right: 2px solid white;
+    list-style-type: none;
+   
+}
+.house-types li:last-child{
+    border-right:none;
+}
+
+.banner{
+    background-color: aliceblue;
+     background-image: url('http://lorempixel.com/1500/1000');
+}
+.company-logos
+{
+    height:75px;
+}
+.banner-avatar li{
+    list-style-type: none;
+    display: inline-block;
+    float:right;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.banner-avatar :last-child{
+    padding-right: 5px;
+}
+.company-info
+{
+    display: inline-block;
+}
+.expertise
+{
+    width:550px;
+    box-sizing: border-box;
+    border-right: 2px solid black;
+    padding-left: 10px;
+    display: inline-block;
+    float: left;
+}
+.avatar
+{
+    display: inline-block;
+    padding-left: 65px;
+}
+.clients
+{
+    display: inline-block;
+    width:550px;
+    box-sizing: border-box;
+    border-left: 2px solid black;
+    padding-left: 10px;
+    float: right;
+}
+
+footer
+{
+    background-color: black;
+    height: 50px;
+    position:relative;
+}
+.footer-nav
+{
+    float:left;
+    display:inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+.footer-nav a{
+     display:inline-block;
+     text-align: center;
+     padding: 5px 10px;
+     text-decoration: none;
+    color: white;
+    border-right: 2px solid white;
+}
+.footer-nav a:last-child{
+    border-right:none;
+}
+.copyright
+{
+    position:absolute;
+    right:2%;
+    top:2%;
+    color: white;
+    
+}
